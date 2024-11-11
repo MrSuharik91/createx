@@ -153,7 +153,8 @@
     line-height: 40px;
   }
   .learn {
-    width: 188px;
+    width: 230px;
+    font-size: 13px;
   }
 }
 </style>
