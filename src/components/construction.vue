@@ -155,6 +155,7 @@
   .learn {
     width: 230px;
     font-size: 13px;
+    white-space: nowrap;
   }
 }
 </style>
