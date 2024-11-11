@@ -153,7 +153,7 @@
     line-height: 40px;
   }
   .learn {
-    width: 230px;
+    width: 210px;
     font-size: 13px;
     white-space: nowrap;
   }
