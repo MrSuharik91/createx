@@ -12,7 +12,7 @@
           class="name-phone"
         />
       </div>
-      <div>
+      <div class="phone-div">
         <h2>Phone</h2>
         <input
           type="number"
@@ -98,5 +98,46 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media (max-width: 850px) {
+  .question-wrapper {
+    gap: 24px;
+  }
+  .question {
+    width: 75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .question-wrapper {
+    display: block;
+  }
+  .question {
+    text-align: start;
+  }
+  .name-phone-div {
+    width: 100%;
+  }
+  .message-div {
+    width: 100%;
+  }
+  .phone-div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .question-wrapper button {
+    width: 30%;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 450px) {
+  .question h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .question-wrapper button {
+    width: 40%;
+  }
 }
 </style>
