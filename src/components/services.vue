@@ -93,4 +93,21 @@
   margin-top: 25px;
   line-height: 30px;
 }
+
+@media (max-width: 900px) {
+  .services-wrapper {
+    width: 75%;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .services-wrapper {
+    display: grid;
+    width: 65%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
 </style>
