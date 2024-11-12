@@ -90,4 +90,55 @@
   width: 100%;
   margin-top: 60px;
 }
+@media (max-width: 900px) {
+  .selected h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .projects h2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 750px) {
+  .projects h2 {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .selected h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .selected h1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .projects h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .projects p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 450px) {
+  .selected h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 350px) {
+  .selected h1 {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
 </style>
