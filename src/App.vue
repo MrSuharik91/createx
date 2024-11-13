@@ -64,4 +64,15 @@ a {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .explore {
+    flex-direction: column;
+  }
+}
+@media (max-width: 300px) {
+  .explore h2 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
 </style>

@@ -14,8 +14,9 @@
           June 24, 2020</span
         >
         <p>
-          Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus.
-          Tincidunt aliquet sit
+          Ipsum aliquet nisi, hendrerit rhoncus quam tortor,
+          <br class="br-hide-news" />
+          maecenas faucibus. Tincidunt aliquet sit
           <br />
           vel, venenatis nulla. Integer bibendum turpis convallis enim, nibh
           convallis...
@@ -112,5 +113,64 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 25.6px;
+}
+.br-hide-news {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .news-wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 900px) {
+  .news-wrapper p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .news-wrapper h2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .br-hide-news {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .posts {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .news-wrapper p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .news-wrapper h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .news-wrapper h2 {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .news span {
+    font-size: 10px;
+  }
+  .br-hide-news {
+    display: none;
+  }
+  .news b {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .news button {
+    width: 152px;
+    font-size: 14px;
+    line-height: 46px;
+  }
 }
 </style>

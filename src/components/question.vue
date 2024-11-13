@@ -99,7 +99,6 @@ input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 @media (max-width: 850px) {
   .question-wrapper {
     gap: 24px;
@@ -108,7 +107,6 @@ input[type="number"]::-webkit-inner-spin-button {
     width: 75%;
   }
 }
-
 @media (max-width: 700px) {
   .question-wrapper {
     display: block;

@@ -16,6 +16,10 @@ export default {
         this.email = true;
       } else {
         this.email = false;
+        this.infoEmail = "";
+        this.infoPhone = "";
+        this.infoEmail = "";
+        this.infoMessage = "";
       }
     },
   },
