@@ -3,7 +3,7 @@
     <div class="footer-wrapper">
       <div>
         <div class="logo-footer">
-          <img src="/logo-2.svg" alt="" />
+          <img class="logo-bott" src="/logo-2.svg" alt="" />
           <div class="media">
             <img src="/Whatsapp.svg" alt="" />
             <img src="/Messanger.svg" alt="" />
@@ -13,11 +13,19 @@
           </div>
         </div>
         <p>
-          Createx Construction Bureau has been successfully operating in the USA
+          Createx Construction Bureau has
+
+          <br class="br-hide-bott" />
+          been successfully operating in the USA
           <br />
-          construction market since 2000. We are proud to offer you quality
+          construction market since 2000.
+          <br class="br-hide-bott" />
+          We are proud to offer you quality
           <br />
-          construction and exemplary service. Our mission is to set the highest
+          construction and exemplary service.
+
+          <br class="br-hide-bott" />
+          Our mission is to set the highest
           <br />
           standards for construction sphere.
         </p>
@@ -174,5 +182,85 @@ footer {
   font-weight: 400;
   line-height: 21px;
   color: white;
+}
+@media (max-width: 1400px) {
+  .input-btn input {
+    height: 44px;
+    background: #ffffff1f;
+    width: 280px;
+    padding-left: 15px;
+    border: 1px solid #ffffff33;
+  }
+  .footer-wrapper p {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .logo-footer {
+    gap: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .input-btn input {
+    width: 200px;
+  }
+  .logo-footer {
+    gap: 30px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .logo-footer {
+    flex-direction: column;
+  }
+  .logo-bott {
+    width: 140px;
+    height: 24px;
+  }
+  footer {
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .info-bott {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 650px) {
+  .footer-wrapper h4 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .input-btn input {
+    width: 170px;
+  }
+  .input-btn button {
+    width: 100px;
+    height: 45.6px;
+    font-size: 12px;
+  }
+  .footer-wrapper p {
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .bott-div p {
+    margin-top: 40px;
+    font-size: 9px;
+  }
+  .bott-div-top span {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .bott-div {
+    flex-direction: column;
+    align-items: start;
+  }
+  .bott-div-top {
+    margin-top: 25px;
+  }
 }
 </style>

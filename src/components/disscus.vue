@@ -101,6 +101,11 @@ html {
   display: flex;
   align-items: center;
 }
+.disscus-wrapper h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
 .disscus-wrapper h3 {
   width: 65%;
   margin: 0 auto;
@@ -116,7 +121,7 @@ html {
 .disscus {
   height: 666px;
   background: #ffffff;
-  width: 495px;
+  width: 45%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 15px 30px rgba(0, 0, 0, 0.25);
   text-align: center;
   display: flex;
@@ -172,9 +177,77 @@ html {
   background: #ff5a30;
   opacity: 1;
 }
-
 .disscus-wrapper button.inactive {
   background: #ff5a30;
   opacity: 0.5;
+}
+@media (max-width: 1200px) {
+  .disscus-wrapper {
+    background-size: contain;
+    background-size: 130% 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .disscus-wrapper h1 {
+    font-size: 23px;
+    line-height: 36px;
+  }
+  .checkbox-wrapper span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 1000px) {
+  .disscus-wrapper h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .checkbox-wrapper span {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .disscus-wrapper h1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .checkbox-wrapper span {
+    font-size: 8px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .checkbox-wrapper {
+    flex-direction: column-reverse;
+  }
+  .disscus p {
+    font-size: 14px;
+  }
+  .disscus {
+    width: 65%;
+  }
+  .disscus-wrapper button {
+    width: 134px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .disscus-wrapper h1 {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .disscus-wrapper button {
+    width: 100px;
+    line-height: 40px;
+  }
+  .inputs {
+    background: #f4f5f6;
+    margin: 0 auto;
+    width: 90%;
+    height: 44px;
+    border: none;
+    padding-left: 12px;
+  }
 }
 </style>
