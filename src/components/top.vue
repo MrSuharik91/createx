@@ -155,6 +155,7 @@ span {
   gap: 25px;
 }
 .hover-info {
+  cursor: pointer;
   width: 80%;
   border-radius: 15px;
   height: 10%;
@@ -287,6 +288,7 @@ span {
   .info-wrapper-phone {
     padding-top: 15px;
     padding-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 350px) {
