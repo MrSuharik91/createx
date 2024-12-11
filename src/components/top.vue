@@ -141,7 +141,7 @@ span {
   height: 40px;
 }
 .MenuHide {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -180,6 +180,13 @@ span {
 @media (max-width: 1300px) {
   .info-wrapper {
     gap: 20px;
+  }
+  .info-wrapper-phone {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .info-wrapper img {
     width: 25px;
@@ -261,16 +268,39 @@ span {
   }
 }
 @media (max-width: 550px) {
+  .exit {
+    width: 25px;
+    height: 25px;
+    top: 8px;
+    right: 20px;
+  }
   .info-wrapper-phone p {
     font-size: 14px;
   }
   .logo {
     width: 70px;
   }
+  .MenuHide {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .info-wrapper-phone {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
 }
 @media (max-width: 350px) {
+  .hover-info a {
+    font-size: 18px;
+  }
   .info-wrapper-phone p {
     font-size: 12px;
+  }
+  .exit {
+    width: 25px;
+    height: 25px;
+    top: 8px;
+    right: 2px;
   }
 }
 </style>
