@@ -1,4 +1,6 @@
 <script>
+import ScrollReveal from "scrollreveal";
+import { onMounted } from "vue";
 export default {
   data() {
     return {
@@ -15,6 +17,44 @@ export default {
       this.menuHidden = false;
       this.menu = true;
     },
+  },
+  mounted() {
+    ScrollReveal().reveal(".head", {
+      duration: 1200,
+      origin: "left",
+      delay: 200,
+      distance: "200px",
+    });
+    ScrollReveal().reveal(".construction-wrapper", {
+      duration: 1200,
+      origin: "left",
+      delay: 800,
+      distance: "200px",
+    });
+    ScrollReveal().reveal(".service-inner-1", {
+      duration: 500,
+      origin: "top",
+      delay: 650,
+      distance: "200px",
+    });
+    ScrollReveal().reveal(".service-inner-2", {
+      duration: 500,
+      origin: "bottom",
+      delay: 850,
+      distance: "200px",
+    });
+    ScrollReveal().reveal(".service-inner-3", {
+      duration: 500,
+      origin: "top",
+      delay: 1050,
+      distance: "200px",
+    });
+    ScrollReveal().reveal(".service-inner-4", {
+      duration: 500,
+      origin: "bottom",
+      delay: 1250,
+      distance: "200px",
+    });
   },
 };
 </script>
@@ -124,6 +164,7 @@ span {
   align-items: center;
   margin-top: 20px;
 }
+
 .info-wrapper-phone {
   width: 80%;
   border-radius: 15px;

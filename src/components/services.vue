@@ -6,19 +6,19 @@
       construction services.
     </p>
     <div class="services-wrapper">
-      <div>
+      <div class="service-inner-1">
         <img src="/construction.svg" alt="" />
         <h2>Construction</h2>
       </div>
-      <div>
+      <div class="service-inner-2">
         <img src="/plan.svg" alt="" />
         <h2>Project Development</h2>
       </div>
-      <div>
+      <div class="service-inner-3">
         <img src="/plan.svg" alt="" />
         <h2>Interior Design</h2>
       </div>
-      <div>
+      <div class="service-inner-4">
         <img src="/painting.svg" alt="" />
         <h2>Repairs</h2>
       </div>

@@ -1,4 +1,6 @@
 <script>
+import { setDevtoolsHook } from "vue";
+
 export default {
   data() {
     return {
@@ -12,14 +14,19 @@ export default {
   },
   methods: {
     sendBtn() {
-      if (!this.infoEmail.includes("@")) {
-        this.email = true;
-      } else {
-        this.email = false;
-        this.infoEmail = "";
+      if (this.infoEmail.includes("@") && this.Checked) {
+        this.infoName = "";
         this.infoPhone = "";
         this.infoEmail = "";
         this.infoMessage = "";
+        this.Checked = false;
+        this.email = false;
+      } else {
+        if (!this.infoEmail.includes("@")) {
+          this.email = true;
+        } else {
+          this.email = false;
+        }
       }
     },
   },
@@ -146,6 +153,7 @@ html {
 .checkbox {
   width: 16px;
   height: 16px;
+  cursor: pointer;
 }
 .checkbox-wrapper {
   display: flex;

@@ -13,6 +13,7 @@
   "dependencies": {
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
+    "scrollreveal": "^4.0.9",
     "vee-validate": "^4.5.8",
     "vue": "^3.5.11"
   },
