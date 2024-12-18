@@ -216,12 +216,18 @@ html {
   }
 }
 @media (max-width: 700px) {
+  .disscus-wrapper {
+    background-image: none;
+  }
+  .disscus-inner {
+    justify-content: center;
+  }
   .disscus-wrapper h1 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
   }
   .checkbox-wrapper span {
-    font-size: 8px;
+    font-size: 14px;
     line-height: 14px;
     text-align: center;
   }
@@ -232,7 +238,7 @@ html {
     font-size: 14px;
   }
   .disscus {
-    width: 65%;
+    width: 85%;
   }
   .disscus-wrapper button {
     width: 134px;
