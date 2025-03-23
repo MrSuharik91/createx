@@ -32,34 +32,46 @@ export default {
       distance: "200px",
     });
     ScrollReveal().reveal(".service-inner-1", {
-      duration: 800,
+      duration: 500,
       origin: "top",
-      delay: 550,
-      distance: "300px",
+      delay: 350,
+      distance: "200px",
     });
     ScrollReveal().reveal(".service-inner-2", {
-      duration: 800,
+      duration: 500,
       origin: "bottom",
-      delay: 550,
-      distance: "300px",
+      delay: 350,
+      distance: "200px",
     });
     ScrollReveal().reveal(".service-inner-3", {
-      duration: 800,
+      duration: 500,
       origin: "top",
-      delay: 550,
-      distance: "300px",
+      delay: 350,
+      distance: "200px",
     });
     ScrollReveal().reveal(".service-inner-4", {
-      duration: 800,
+      duration: 500,
       origin: "bottom",
-      delay: 550,
+      delay: 350,
+      distance: "200px",
+    });
+    ScrollReveal().reveal(".red", {
+      duration: 700,
+      origin: "left",
+      delay: 500,
       distance: "300px",
     });
-    ScrollReveal().reveal(".projects", {
-      duration: 800,
-      origin: "bottom",
-      delay: 250,
-      distance: "300px",
+    ScrollReveal().reveal(".cub", {
+      duration: 700,
+      origin: "left",
+      delay: 350,
+      distance: "200px",
+    });
+    ScrollReveal().reveal(".pencil", {
+      duration: 700,
+      origin: "left",
+      delay: 350,
+      distance: "200px",
     });
   },
 };

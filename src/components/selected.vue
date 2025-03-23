@@ -7,19 +7,19 @@
       and learn more about our work
     </h1>
     <div class="projects">
-      <div>
+      <div class="red">
         <img src="/Red-Finger.jpg" alt="" />
         <h2>Red Finger Building</h2>
         <p>Business Centers</p>
         <button>View Project</button>
       </div>
-      <div>
+      <div class="cub">
         <img src="/Cubes-Building.png" alt="" />
         <h2>Cubes Building</h2>
         <p>Business Centers</p>
         <button>View Project</button>
       </div>
-      <div>
+      <div class="pencil">
         <img src="/Pencil-Building.png" alt="" />
         <h2>The Pencil Building</h2>
         <p>Stores & Malls</p>
