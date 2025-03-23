@@ -53,6 +53,10 @@
   .bureau h1 {
     font-size: 34px;
   }
+  .bureau {
+    margin-top: 80px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 400px) {

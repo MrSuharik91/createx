@@ -34,25 +34,31 @@ export default {
     ScrollReveal().reveal(".service-inner-1", {
       duration: 800,
       origin: "top",
-      delay: 1050,
+      delay: 550,
       distance: "300px",
     });
     ScrollReveal().reveal(".service-inner-2", {
-      duration: 700,
+      duration: 800,
       origin: "bottom",
-      delay: 1150,
+      delay: 550,
       distance: "300px",
     });
     ScrollReveal().reveal(".service-inner-3", {
-      duration: 700,
+      duration: 800,
       origin: "top",
-      delay: 1250,
+      delay: 550,
       distance: "300px",
     });
     ScrollReveal().reveal(".service-inner-4", {
-      duration: 700,
+      duration: 800,
       origin: "bottom",
-      delay: 1350,
+      delay: 550,
+      distance: "300px",
+    });
+    ScrollReveal().reveal(".projects", {
+      duration: 800,
+      origin: "bottom",
+      delay: 250,
       distance: "300px",
     });
   },
@@ -194,12 +200,13 @@ span {
   justify-content: center;
   background-color: rgb(255, 115, 0);
   gap: 25px;
+  overflow: hidden;
 }
 .hover-info {
   cursor: pointer;
   width: 80%;
   border-radius: 15px;
-  height: 10%;
+  height: 7.5%;
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
@@ -340,10 +347,10 @@ span {
     font-size: 12px;
   }
   .exit {
-    width: 25px;
-    height: 25px;
-    top: 8px;
-    right: 2px;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    right: 20px;
   }
 }
 </style>

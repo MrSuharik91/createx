@@ -245,14 +245,24 @@ html {
     line-height: 40px;
   }
 }
-
 @media (max-width: 450px) {
+  .disscus-inner {
+    width: 90%;
+  }
+  .checkbox-wrapper span {
+    font-size: 12px;
+  }
   .disscus-wrapper h1 {
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 24px;
   }
+  .disscus-wrapper {
+    height: auto;
+    margin-bottom: 30px;
+  }
   .disscus-wrapper button {
-    width: 100px;
+    width: 120px;
     line-height: 40px;
   }
   .inputs {

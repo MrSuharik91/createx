@@ -121,4 +121,14 @@
     font-size: 15px;
   }
 }
+@media (max-width: 500px) {
+  .values h1 {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+  .values h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
 </style>

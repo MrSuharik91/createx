@@ -153,6 +153,10 @@
     grid-template-columns: 1fr 1fr;
     width: 85%;
   }
+  .builder {
+    height: 250px;
+    width: 100%;
+  }
 }
 @media (max-width: 300px) {
   .partners h1 {

@@ -172,5 +172,9 @@
     font-size: 14px;
     line-height: 46px;
   }
+  .posts {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
 }
 </style>

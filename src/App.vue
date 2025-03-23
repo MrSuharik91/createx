@@ -69,7 +69,7 @@ a {
     flex-direction: column;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .explore h2 {
     font-size: 22px;
     line-height: 40px;

@@ -135,6 +135,13 @@
   .services span button {
     margin-top: 20px;
   }
+  .services span {
+    margin-top: 85px;
+    margin-bottom: 100px;
+  }
+  .services p {
+    font-size: 13px;
+  }
 }
 @media (max-width: 350px) {
   .services span h2 {

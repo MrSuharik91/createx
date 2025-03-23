@@ -90,6 +90,11 @@
   width: 100%;
   margin-top: 60px;
 }
+.projects div button:hover {
+  background: #ff5a30;
+  color: white;
+  transition: 0.3s;
+}
 @media (max-width: 900px) {
   .selected h1 {
     font-size: 34px;
@@ -129,16 +134,8 @@
 }
 @media (max-width: 450px) {
   .selected h1 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
-  }
-}
-
-@media (max-width: 350px) {
-  .selected h1 {
-    font-size: 13px;
-    line-height: 20px;
-    text-align: center;
   }
 }
 </style>

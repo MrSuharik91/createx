@@ -144,7 +144,9 @@
     display: block;
   }
   .construction {
-    background-size: 120% 65%;
+    background-size: 165% 90%;
+    height: 500px;
+    margin-top: 0;
   }
 }
 @media (max-width: 400px) {
